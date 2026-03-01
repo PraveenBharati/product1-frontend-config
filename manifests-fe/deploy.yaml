@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: fe-container
-          image: cloudwithvarjosh/product1-fe:v1.0.0
+          image: public.ecr.aws/c9p7y3o2/app1-frontend-repo:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 4000
